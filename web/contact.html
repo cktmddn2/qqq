@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>포트폴리오 - 연락처</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>차승우 포트폴리오</h1>
+        <nav>
+            <a href="index.html">소개</a>
+            <a href="project.html">프로젝트</a>
+            <a href="contact.html" class="active">연락처</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>연락처</h2>
+            <p>이메일: cktmddn77@example.com</p>
+            <p>전화번호: 010-9679-6362</p>
+            <h3>문의사항</h3>
+            <form action="#" method="post">
+                <label for="name">이름:</label><br />
+                <input type="text" id="name" name="name" placeholder="이름 입력" required /><br /><br />
+                
+                <label for="email">이메일:</label><br />
+                <input type="email" id="email" name="email" placeholder="이메일 입력" required /><br /><br />
+                
+                <label for="message">문의 내용:</label><br />
+                <textarea id="message" name="message" rows="5" placeholder="문의 내용을 입력하세요." required></textarea><br /><br />
+                
+                <button type="submit">보내기</button>
+            </form>
+            <p><small>※ 서버 연동이 없으면 제출 후 새로고침됩니다.</small></p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 차승우
+    </footer>
+</body>
+</html>
